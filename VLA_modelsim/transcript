@@ -1,0 +1,83 @@
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 02:53:27 on Dec 07,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 02:53:27 on Dec 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.controller_test.v
+# vsim work.controller_test.v 
+# Start time: 02:53:36 on Dec 07,2020
+# ** Error (suppressible): (vsim-19) Failed to access library 'work.controller_test' at "work.controller_test".
+# No such file or directory. (errno = ENOENT)
+# Error loading design
+# End time: 02:53:36 on Dec 07,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 02:54:03 on Dec 07,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller_test.v 
+# -- Compiling module controller_test
+# 
+# Top level modules:
+# 	controller_test
+# End time: 02:54:03 on Dec 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 02:54:03 on Dec 07,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 02:54:03 on Dec 07,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.controller_test
+# vsim work.controller_test 
+# Start time: 02:54:17 on Dec 07,2020
+# Loading work.controller_test
+# Loading work.controller
+run -all
+# Testing opcode HLT phase 0 1 2 3 4 5 6 7
+# Testing opcode SKZ phase 0 1 2 3 4 5 6 7
+# Testing opcode ADD phase 0 1 2 3 4 5 6 7
+# Testing opcode AND phase 0 1 2 3 4 5 6 7
+# Testing opcode XOR phase 0 1 2 3 4 5 6 7
+# Testing opcode LDA phase 0 1 2 3 4 5 6 7
+# Testing opcode STO phase 0 1 2 3 4 5 6 7
+# Testing opcode JMP phase 0 1 2 3 4 5 6 7
+# TEST PASSED
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller_test.v(142)
+#    Time: 65 ps  Iteration: 0  Instance: /controller_test
+# 1
+# Break in Module controller_test at /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller_test.v line 142
+vsim
+# End time: 02:54:37 on Dec 07,2020, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 0
+# vsim work.controller_test 
+# Start time: 02:54:37 on Dec 07,2020
+# Loading work.controller_test
+# Loading work.controller
+add wave -position insertpoint sim:/controller_test/*
+run -all
+# Testing opcode HLT phase 0 1 2 3 4 5 6 7
+# Testing opcode SKZ phase 0 1 2 3 4 5 6 7
+# Testing opcode ADD phase 0 1 2 3 4 5 6 7
+# Testing opcode AND phase 0 1 2 3 4 5 6 7
+# Testing opcode XOR phase 0 1 2 3 4 5 6 7
+# Testing opcode LDA phase 0 1 2 3 4 5 6 7
+# Testing opcode STO phase 0 1 2 3 4 5 6 7
+# Testing opcode JMP phase 0 1 2 3 4 5 6 7
+# TEST PASSED
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller_test.v(142)
+#    Time: 65 ps  Iteration: 0  Instance: /controller_test
+# 1
+# Break in Module controller_test at /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller_test.v line 142
+# End time: 02:54:59 on Dec 07,2020, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0
