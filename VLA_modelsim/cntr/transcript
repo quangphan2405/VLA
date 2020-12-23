@@ -1,0 +1,81 @@
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/cntr/counter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:21:22 on Dec 23,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/cntr/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 21:21:22 on Dec 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/cntr/counter_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:21:22 on Dec 23,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/cntr/counter_test.v 
+# -- Compiling module counter_test
+# 
+# Top level modules:
+# 	counter_test
+# End time: 21:21:22 on Dec 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+ls
+# counter_test.v
+# counter.v
+# README.txt
+# README.txt~
+# transcript
+# work
+cd ..
+# reading modelsim.ini
+vlib work
+vmap work mylib
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1_3 Lib Mapping Utility 2020.04 Apr 27 2020
+# vmap work mylib 
+# Modifying modelsim.ini
+# ** Error (suppressible): (vmap-19) Failed to access library 'work' at "mylib".
+# No such file or directory. (errno = ENOENT)
+vmap work $PWD/mylib
+# can't read "PWD": no such variable
+vmap work my_lib
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1_3 Lib Mapping Utility 2020.04 Apr 27 2020
+# vmap work my_lib 
+# Modifying modelsim.ini
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/cntr/counter_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:24:20 on Dec 23,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/cntr/counter_test.v 
+# -- Compiling module counter_test
+# 
+# Top level modules:
+# 	counter_test
+# End time: 21:24:20 on Dec 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/cntr/counter.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:24:20 on Dec 23,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/cntr/counter.v 
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# End time: 21:24:20 on Dec 23,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.counter_test
+# vsim work.counter_test 
+# Start time: 21:26:36 on Dec 23,2020
+# Loading work.counter_test
+# Loading work.counter
+run -all
+# At time 20 rst=0 load=1 enab=1 cnt_in=10101 cnt_out=10101
+# At time 30 rst=0 load=1 enab=1 cnt_in=01010 cnt_out=01010
+# At time 40 rst=0 load=1 enab=1 cnt_in=11111 cnt_out=11111
+# At time 50 rst=1 load=1 enab=1 cnt_in=11111 cnt_out=00000
+# At time 60 rst=0 load=1 enab=1 cnt_in=11111 cnt_out=11111
+# At time 70 rst=0 load=0 enab=1 cnt_in=11111 cnt_out=00000
+# TEST PASSED
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/cntr/counter_test.v(51)
+#    Time: 70 ps  Iteration: 1  Instance: /counter_test
+# End time: 21:26:57 on Dec 23,2020, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 0
