@@ -142,13 +142,13 @@ r1
 !s85 0
 31
 !s108 1608770641.000000
-!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v|
-Z16 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v|
+Z16 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v|
+Z17 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v|
 !i113 1
 R7
 R8
 vcounterfunc
-Z17 !s110 1608770711
+Z18 !s110 1608770711
 !i10b 1
 !s100 T0BXbY_16dVdUnb5UCnm_1
 R2
@@ -164,14 +164,14 @@ R5
 r1
 !s85 0
 31
-Z18 !s108 1608770711.000000
+Z19 !s108 1608770711.000000
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter.v|
 !i113 1
 R7
 R8
 vcounterfunc_test
-R17
+R18
 !i10b 1
 !s100 XcUJEg2jz?N6VQJPM>3R41
 R2
@@ -187,9 +187,9 @@ R5
 r1
 !s85 0
 31
-R18
-Z19 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v|
+R19
 R16
+R17
 !i113 1
 R7
 R8
@@ -240,30 +240,30 @@ R21
 R7
 R8
 vmemory
-!s110 1608681655
+Z22 !s110 1608771051
 !i10b 1
-!s100 m=Z7U`HgO]TXJ9X1Xg3SH2
+!s100 ;g:PP1zk`6@[KL;IDob7;0
 R2
-I8eTb`aWIW1fVU=QCR>Vcz2
+I`GFm0NT0jOKlFBK9jTHOf0
 R3
 R12
-w1608681640
+w1608771027
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory.v
-!i122 72
-R4
+!i122 83
+L0 1 16
 R5
 r1
 !s85 0
 31
-!s108 1608681655.000000
+Z23 !s108 1608771051.000000
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory.v|
 !i113 1
 R7
 R8
 vmemory_test
-!s110 1608674966
+R22
 !i10b 1
 !s100 AKILY<2TgLUSP6:cBGdJU0
 R2
@@ -273,20 +273,66 @@ R12
 w1459766497
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory_test.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory_test.v
-!i122 31
+!i122 84
 L0 1 77
 R5
 r1
 !s85 0
 31
-!s108 1608674966.000000
+R23
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory_test.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory_test.v|
 !i113 1
 R7
 R8
+vmemorytask
+Z24 !s110 1608772362
+!i10b 1
+!s100 L[;RC]i6SgPgiTmzQaGl>3
+R2
+IZeBbC__m<9nmhD@V[kVDT1
+R3
+R12
+w1608772341
+8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v
+F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v
+!i122 95
+L0 2 17
+R5
+r1
+!s85 0
+31
+Z25 !s108 1608772362.000000
+!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v|
+!i113 1
+R7
+R8
+vmemorytask_test
+R24
+!i10b 1
+!s100 0=PXJ6TSjP;[cXi`C::E42
+R2
+I;Gfi5;C1]c4QHP;82aoUe2
+R3
+R12
+w1608772268
+8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v
+F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v
+!i122 96
+L0 1 97
+R5
+r1
+!s85 0
+31
+R25
+!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v|
+!i113 1
+R7
+R8
 vmultiplexor
-Z22 !s110 1602708405
+Z26 !s110 1602708405
 !i10b 1
 !s100 B1K=lKR7SBfWS<<cSDG>i3
 R2
@@ -302,13 +348,13 @@ R5
 r1
 !s85 0
 31
-Z23 !s108 1602708405.000000
-Z24 !s107 lab4-mux/multiplexor.v|lab4-mux/multiplexor_test.v|
-Z25 !s90 -reportprogress|300|lab4-mux/multiplexor_test.v|lab4-mux/multiplexor.v|
+Z27 !s108 1602708405.000000
+Z28 !s107 lab4-mux/multiplexor.v|lab4-mux/multiplexor_test.v|
+Z29 !s90 -reportprogress|300|lab4-mux/multiplexor_test.v|lab4-mux/multiplexor.v|
 !i113 1
 R8
 vmultiplexor_test
-R22
+R26
 !i10b 1
 !s100 PY>]nZTVnV51e<hcae9Mh2
 R2
@@ -324,8 +370,8 @@ R5
 r1
 !s85 0
 31
-R23
-R24
-R25
+R27
+R28
+R29
 !i113 1
 R8
