@@ -286,7 +286,7 @@ R23
 R7
 R8
 vmemorytask
-Z24 !s110 1608772362
+Z24 !s110 1608772825
 !i10b 1
 !s100 L[;RC]i6SgPgiTmzQaGl>3
 R2
@@ -296,13 +296,13 @@ R12
 w1608772341
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v
-!i122 95
+!i122 97
 L0 2 17
 R5
 r1
 !s85 0
 31
-Z25 !s108 1608772362.000000
+Z25 !s108 1608772825.000000
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v|
 !i113 1
@@ -311,15 +311,15 @@ R8
 vmemorytask_test
 R24
 !i10b 1
-!s100 0=PXJ6TSjP;[cXi`C::E42
+!s100 ZL]oRbPACJ`M<mLfen@nf0
 R2
-I;Gfi5;C1]c4QHP;82aoUe2
+I]f`Vf[`H:dVaHU`EfeLM13
 R3
 R12
-w1608772268
+w1608772812
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v
-!i122 96
+!i122 98
 L0 1 97
 R5
 r1
