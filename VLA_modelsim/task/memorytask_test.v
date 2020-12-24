@@ -47,10 +47,10 @@ task write
   (input [AWIDTH-1:0] add,
    input [DWIDTH-1:0] dat);
    begin
-      memorytask_test.wr = 1;
-      memorytask_test.rd = 0;
+      wr = 1;
+      rd = 0;
       memorytask_test.addr = add;
-      memorytask_test.rdata = dat;
+      rdata = dat;
       @(negedge clk);      
    end
 endtask // write
@@ -63,10 +63,10 @@ task read
   (input [AWIDTH-1:0] add,
    input [DWIDTH-1:0] dat);
    begin
-      memorytask_test.wr = 0;
-      memorytask_test.rd = 1;
+      wr = 0;
+      rd = 1;
       memorytask_test.addr = add;
-      memorytask_test.rdata = 'bz;
+      rdata = 'bz;
       @(negedge clk) expect (data);
    end
 endtask // read
