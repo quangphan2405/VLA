@@ -248,3 +248,215 @@ run -all
 #    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
 # 1
 # Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
+quit -sim
+# End time: 21:48:24 on Dec 25,2020, Elapsed time: 0:12:03
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:48:28 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
+# -- Compiling module rcvr
+# 
+# Top level modules:
+# 	rcvr
+# End time: 21:48:28 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.rcvr_test
+# vsim work.rcvr_test 
+# Start time: 21:48:48 on Dec 25,2020
+# Loading work.rcvr_test
+# Loading work.rcvr
+run -all
+# Message sending:  I Love Verilog
+# At time 35: Put character "I"
+# At time 37: Got character "§"
+# At time 77: Put character " "
+# At time 93: Got character "ê"
+# At time 117: Put character "L"
+# At time 125: Got character "¶"
+# At time 153: Put character "o"
+# At time 173: Got character "∑"
+# At time 193: Put character "v"
+# At time 205: Got character "ª"
+# At time 231: Put character "e"
+# At time 255: Got character "≤"
+# At time 275: Put character " "
+# At time 295: Got character "ê"
+# At time 309: Put character "V"
+# At time 311: Got character "´"
+# At time 349: Put character "e"
+# At time 363: Got character "≤"
+# At time 391: Put character "r"
+# At time 421: Got character "π"
+# At time 425: Put character "i"
+# At time 431: Got character "¥"
+# At time 459: Put character "l"
+# At time 485: Got character "∂"
+# At time 495: Put character "o"
+# At time 505: Got character "∑"
+# At time 537: Put character "g"
+# At time 561: Got character "≥"
+# Message received: §ê¶∑ª≤ê´≤π¥∂∑≥
+# TEST DONE
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
+#    Time: 561 ps  Iteration: 1  Instance: /rcvr_test
+# 1
+# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
+quit -sim
+# End time: 21:50:18 on Dec 25,2020, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:50:26 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
+# -- Compiling module rcvr
+# 
+# Top level modules:
+# 	rcvr
+# End time: 21:50:26 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.rcvr_test
+# vsim work.rcvr_test 
+# Start time: 21:50:29 on Dec 25,2020
+# Loading work.rcvr_test
+# Loading work.rcvr
+run -all
+# Message sending:  I Love Verilog
+# At time 7: Got character " "
+# At time 35: Put character "I"
+# At time 53: Got character "I"
+# At time 77: Put character " "
+# At time 80: Data out buffer is overrun
+# At time 87: Got character " "
+# At time 117: Put character "L"
+# At time 118: Data out buffer is overrun
+# At time 153: Put character "o"
+# At time 193: Put character "v"
+# At time 231: Put character "e"
+# At time 275: Put character " "
+# At time 309: Put character "V"
+# At time 349: Put character "e"
+# At time 391: Put character "r"
+# At time 425: Put character "i"
+# At time 459: Put character "l"
+# At time 495: Put character "o"
+# At time 537: Put character "g"
+# TEST TIMEOUT
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(25)
+#    Time: 600 ps  Iteration: 0  Instance: /rcvr_test
+# 1
+# Break in Module rcvr_test at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 25
+quit -sim
+# End time: 21:51:39 on Dec 25,2020, Elapsed time: 0:01:10
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:51:45 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
+# -- Compiling module rcvr
+# 
+# Top level modules:
+# 	rcvr
+# End time: 21:51:45 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.rcvr_test
+# vsim work.rcvr_test 
+# Start time: 21:51:48 on Dec 25,2020
+# Loading work.rcvr_test
+# Loading work.rcvr
+run -all
+# Message sending:  I Love Verilog
+# At time 35: Put character "I"
+# At time 39: Got character "I"
+# At time 77: Put character " "
+# At time 95: Got character " "
+# At time 117: Put character "L"
+# At time 127: Got character "L"
+# At time 153: Put character "o"
+# At time 175: Got character "o"
+# At time 193: Put character "v"
+# At time 207: Got character "v"
+# At time 231: Put character "e"
+# At time 257: Got character "e"
+# At time 275: Put character " "
+# At time 297: Got character " "
+# At time 309: Put character "V"
+# At time 313: Got character "V"
+# At time 349: Put character "e"
+# At time 365: Got character "e"
+# At time 391: Put character "r"
+# At time 423: Got character "r"
+# At time 425: Put character "i"
+# At time 433: Got character "i"
+# At time 459: Put character "l"
+# At time 487: Got character "l"
+# At time 495: Put character "o"
+# At time 507: Got character "o"
+# At time 537: Put character "g"
+# At time 563: Got character "g"
+# Message received: I Love Verilog
+# TEST DONE
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
+#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
+# 1
+# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
+quit -sim
+# End time: 21:55:41 on Dec 25,2020, Elapsed time: 0:03:53
+# Errors: 0, Warnings: 0
+VCOM
+# invalid command name "VCOM"
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:55:49 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
+# -- Compiling module rcvr
+# 
+# Top level modules:
+# 	rcvr
+# End time: 21:55:49 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim
+# vsim work.rcvr_test 
+# Start time: 21:55:58 on Dec 25,2020
+# Loading work.rcvr_test
+# Loading work.rcvr
+run -all
+# Message sending:  I Love Verilog
+# At time 35: Put character "I"
+# At time 39: Got character "I"
+# At time 77: Put character " "
+# At time 95: Got character " "
+# At time 117: Put character "L"
+# At time 127: Got character "L"
+# At time 153: Put character "o"
+# At time 175: Got character "o"
+# At time 193: Put character "v"
+# At time 207: Got character "v"
+# At time 231: Put character "e"
+# At time 257: Got character "e"
+# At time 275: Put character " "
+# At time 297: Got character " "
+# At time 309: Put character "V"
+# At time 313: Got character "V"
+# At time 349: Put character "e"
+# At time 365: Got character "e"
+# At time 391: Put character "r"
+# At time 423: Got character "r"
+# At time 425: Put character "i"
+# At time 433: Got character "i"
+# At time 459: Put character "l"
+# At time 487: Got character "l"
+# At time 495: Put character "o"
+# At time 507: Got character "o"
+# At time 537: Put character "g"
+# At time 563: Got character "g"
+# Message received: I Love Verilog
+# TEST DONE
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
+#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
+# 1
+# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
