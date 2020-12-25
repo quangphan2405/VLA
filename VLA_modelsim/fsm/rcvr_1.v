@@ -22,6 +22,7 @@ module rcvr
 
   reg [6:0] body_reg ;
 
+  // FSM logic and control
   always @(posedge clock)
 
     if (reset) begin
@@ -78,19 +79,19 @@ module rcvr
 
        // IF STATE IS BODY8 THEN COPY CONCATENATION OF BODY REGISTER AND INPUT
        // DATA TO OUTPUT REGISTER AND SET READY ELSE IF READING THEN CLEAR READY
-       if (state == BODY8)
+       if ( state == BODY8 )
 	 begin
 	    data_out <= {body_reg, data_in};
             ready <= 'b1;
 	 end
-       else if (reading)
+       else if ( reading )
 	 ready <= 'b0;
 
        // IF READING THEN CLEAR OVERRUN, ELSE
        // IF STATE IS BODY8 AND STILL READY THEN SET OVERRUN
-       if (reading)
+       if ( reading )
 	 overrun <= 'b0;
-       else if (state == BODY8 && ready)
+       else if ( state == BODY8 && ready )
 	 overrun <= 'b1;
        
       end
