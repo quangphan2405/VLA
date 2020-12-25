@@ -1,65 +1,250 @@
 vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 03:20:25 on Dec 24,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v 
-# -- Compiling module memorytask
+# Start time: 21:32:36 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v 
+# -- Compiling module rcvr
+# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v(84): near "else": syntax error, unexpected else.
+# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:32:36 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
+# -- Compiling module rcvr
+# ** Error (suppressible): (vlog-13302) Empty case statement. SystemVerilog syntax requires at least one branch.
+# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:32:36 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v 
+# -- Compiling module rcvr
+# ** Error (suppressible): (vlog-13302) Empty case statement. SystemVerilog syntax requires at least one branch.
+# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:32:36 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v 
+# -- Compiling module rcvr_test
 # 
 # Top level modules:
-# 	memorytask
-# End time: 03:20:25 on Dec 24,2020, Elapsed time: 0:00:00
+# 	rcvr_test
+# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 03:20:25 on Dec 24,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v 
-# -- Compiling module memorytask_test
+# Start time: 21:32:36 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v 
+# -- Compiling module rcvr
+# ** Error (suppressible): (vlog-13302) Empty case statement. SystemVerilog syntax requires at least one branch.
+# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:32:36 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
+# -- Compiling module rcvr
+# ** Error (suppressible): (vlog-13302) Empty case statement. SystemVerilog syntax requires at least one branch.
+# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:32:36 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v 
+# -- Compiling module rcvr_test
 # 
 # Top level modules:
-# 	memorytask_test
-# End time: 03:20:25 on Dec 24,2020, Elapsed time: 0:00:00
+# 	rcvr_test
+# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim work.memorytask_test
-# vsim work.memorytask_test 
-# Start time: 03:20:36 on Dec 24,2020
-# Loading work.memorytask_test
-# Loading work.memorytask
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:32:36 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v 
+# -- Compiling module rcvr
+# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v(84): near "else": syntax error, unexpected else.
+# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:33:23 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v 
+# -- Compiling module rcvr
+# 
+# Top level modules:
+# 	rcvr
+# End time: 21:33:23 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:33:23 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v 
+# -- Compiling module rcvr_test
+# 
+# Top level modules:
+# 	rcvr_test
+# End time: 21:33:23 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim
+# vsim work.rcvr_test 
+# Start time: 21:33:44 on Dec 25,2020
+# Loading work.rcvr_test
+# Loading work.rcvr
 run -all
-# 330 addr=11111, exp_data= 00000000, data=00000000
-# 340 addr=11110, exp_data= 00000001, data=00000001
-# 350 addr=11101, exp_data= 00000010, data=00000010
-# 360 addr=11100, exp_data= 00000011, data=00000011
-# 370 addr=11011, exp_data= 00000100, data=00000100
-# 380 addr=11010, exp_data= 00000101, data=00000101
-# 390 addr=11001, exp_data= 00000110, data=00000110
-# 400 addr=11000, exp_data= 00000111, data=00000111
-# 410 addr=10111, exp_data= 00001000, data=00001000
-# 420 addr=10110, exp_data= 00001001, data=00001001
-# 430 addr=10101, exp_data= 00001010, data=00001010
-# 440 addr=10100, exp_data= 00001011, data=00001011
-# 450 addr=10011, exp_data= 00001100, data=00001100
-# 460 addr=10010, exp_data= 00001101, data=00001101
-# 470 addr=10001, exp_data= 00001110, data=00001110
-# 480 addr=10000, exp_data= 00001111, data=00001111
-# 490 addr=01111, exp_data= 00010000, data=00010000
-# 500 addr=01110, exp_data= 00010001, data=00010001
-# 510 addr=01101, exp_data= 00010010, data=00010010
-# 520 addr=01100, exp_data= 00010011, data=00010011
-# 530 addr=01011, exp_data= 00010100, data=00010100
-# 540 addr=01010, exp_data= 00010101, data=00010101
-# 550 addr=01001, exp_data= 00010110, data=00010110
-# 560 addr=01000, exp_data= 00010111, data=00010111
-# 570 addr=00111, exp_data= 00011000, data=00011000
-# 580 addr=00110, exp_data= 00011001, data=00011001
-# 590 addr=00101, exp_data= 00011010, data=00011010
-# 600 addr=00100, exp_data= 00011011, data=00011011
-# 610 addr=00011, exp_data= 00011100, data=00011100
-# 620 addr=00010, exp_data= 00011101, data=00011101
-# 630 addr=00001, exp_data= 00011110, data=00011110
-# TEST PASSED
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v(94)
-#    Time: 630 ps  Iteration: 1  Instance: /memorytask_test
+# Message sending:  I Love Verilog
+# At time 35: Put character "I"
+# At time 39: Got character "I"
+# At time 77: Put character " "
+# At time 95: Got character " "
+# At time 117: Put character "L"
+# At time 127: Got character "L"
+# At time 153: Put character "o"
+# At time 175: Got character "o"
+# At time 193: Put character "v"
+# At time 207: Got character "v"
+# At time 231: Put character "e"
+# At time 257: Got character "e"
+# At time 275: Put character " "
+# At time 297: Got character " "
+# At time 309: Put character "V"
+# At time 313: Got character "V"
+# At time 349: Put character "e"
+# At time 365: Got character "e"
+# At time 391: Put character "r"
+# At time 423: Got character "r"
+# At time 425: Put character "i"
+# At time 433: Got character "i"
+# At time 459: Put character "l"
+# At time 487: Got character "l"
+# At time 495: Put character "o"
+# At time 507: Got character "o"
+# At time 537: Put character "g"
+# At time 563: Got character "g"
+# Message received: I Love Verilog
+# TEST DONE
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
+#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
 # 1
-# Break in NamedBeginStat TEST at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v line 94
-# End time: 03:21:03 on Dec 24,2020, Elapsed time: 0:00:27
+# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
+quit -sim
+# End time: 21:35:07 on Dec 25,2020, Elapsed time: 0:01:23
 # Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:35:32 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v 
+# -- Compiling module rcvr
+# 
+# Top level modules:
+# 	rcvr
+# End time: 21:35:32 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.rcvr_test
+# vsim work.rcvr_test 
+# Start time: 21:35:36 on Dec 25,2020
+# Loading work.rcvr_test
+# Loading work.rcvr
+run -all
+# Message sending:  I Love Verilog
+# At time 35: Put character "I"
+# At time 39: Got character "I"
+# At time 77: Put character " "
+# At time 95: Got character " "
+# At time 117: Put character "L"
+# At time 127: Got character "H"
+# At time 153: Put character "o"
+# At time 175: Got character "m"
+# At time 193: Put character "v"
+# At time 207: Got character "t"
+# At time 231: Put character "e"
+# At time 257: Got character "a"
+# At time 275: Put character " "
+# At time 297: Got character " "
+# At time 309: Put character "V"
+# At time 313: Got character "T"
+# At time 349: Put character "e"
+# At time 365: Got character "a"
+# At time 391: Put character "r"
+# At time 423: Got character "t"
+# At time 425: Put character "i"
+# At time 433: Got character "i"
+# At time 459: Put character "l"
+# At time 487: Got character "h"
+# At time 495: Put character "o"
+# At time 507: Got character "m"
+# At time 537: Put character "g"
+# At time 563: Got character "e"
+# Message received: I Hmta Tatihme
+# TEST DONE
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
+#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
+# 1
+# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
+quit -sim
+# End time: 21:35:50 on Dec 25,2020, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 0
+vsim work.rcvr_test
+# vsim work.rcvr_test 
+# Start time: 21:36:04 on Dec 25,2020
+# Loading work.rcvr_test
+# Loading work.rcvr
+quit -sim
+# End time: 21:36:12 on Dec 25,2020, Elapsed time: 0:00:08
+# Errors: 0, Warnings: 0
+vcom
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 21:36:18 on Dec 25,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v 
+# -- Compiling module rcvr
+# 
+# Top level modules:
+# 	rcvr
+# End time: 21:36:18 on Dec 25,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.rcvr_test
+# vsim work.rcvr_test 
+# Start time: 21:36:21 on Dec 25,2020
+# Loading work.rcvr_test
+# Loading work.rcvr
+run -all
+# Message sending:  I Love Verilog
+# At time 35: Put character "I"
+# At time 39: Got character "I"
+# At time 77: Put character " "
+# At time 95: Got character " "
+# At time 117: Put character "L"
+# At time 127: Got character "L"
+# At time 153: Put character "o"
+# At time 175: Got character "o"
+# At time 193: Put character "v"
+# At time 207: Got character "v"
+# At time 231: Put character "e"
+# At time 257: Got character "e"
+# At time 275: Put character " "
+# At time 297: Got character " "
+# At time 309: Put character "V"
+# At time 313: Got character "V"
+# At time 349: Put character "e"
+# At time 365: Got character "e"
+# At time 391: Put character "r"
+# At time 423: Got character "r"
+# At time 425: Put character "i"
+# At time 433: Got character "i"
+# At time 459: Put character "l"
+# At time 487: Got character "l"
+# At time 495: Put character "o"
+# At time 507: Got character "o"
+# At time 537: Put character "g"
+# At time 563: Got character "g"
+# Message received: I Love Verilog
+# TEST DONE
+# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
+#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
+# 1
+# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60

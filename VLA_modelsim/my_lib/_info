@@ -375,3 +375,95 @@ R28
 R29
 !i113 1
 R8
+vmux
+Z30 !s110 1608911242
+!i10b 1
+!s100 a>LkGnKNmI=E<6R6ToCQ10
+R2
+IP0ga>Ta5@[>nZd:T?SXV82
+R3
+R12
+Z31 w1459766488
+8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux.v
+F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux.v
+!i122 99
+L0 11 30
+R5
+r1
+!s85 0
+31
+Z32 !s108 1608911242.000000
+!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux.v|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux.v|
+!i113 1
+R7
+R8
+vmux_test
+R30
+!i10b 1
+!s100 _egT4ZEOaHTkB^Sz=80J?3
+R2
+I_W5Q4j6R1LQJo7nnWc5J<2
+R3
+R12
+R31
+8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux_test.v
+F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux_test.v
+!i122 100
+L0 1 39
+R5
+r1
+!s85 0
+31
+R32
+!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux_test.v|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux_test.v|
+!i113 1
+R7
+R8
+vrcvr
+!s110 1608924978
+!i10b 1
+!s100 b4YHXn8S4:@91lHmdzA;A2
+R2
+I99H`PX_6E=ck8f8?RSzYM0
+R3
+R12
+w1608924959
+8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
+F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
+!i122 106
+L0 1 98
+R5
+r1
+!s85 0
+31
+!s108 1608924978.000000
+!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v|
+!i113 1
+R7
+R8
+vrcvr_test
+!s110 1608924803
+!i10b 1
+!s100 l0GBK16eWEiTzfUJIQPDJ1
+R2
+I[AIF2Ic@NF2QNCK]AbKzY1
+R3
+R12
+w1459766489
+8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v
+F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v
+!i122 104
+L0 1 63
+R5
+r1
+!s85 0
+31
+!s108 1608924803.000000
+!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v|
+!i113 1
+R7
+R8
