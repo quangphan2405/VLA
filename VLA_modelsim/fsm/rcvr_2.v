@@ -22,6 +22,7 @@ module rcvr
 
   reg [6:0] body_reg ;
 
+  // Next state logic
   always @*
 
     // WHEN IN EACH STATE WHAT MOVES FSM TO WHAT NEXT STATE?
@@ -45,10 +46,11 @@ module rcvr
       BODY8: nstate <= HEAD1;
       
     endcase // case ( state )
-   
+  
+  // State & control registers and output
   always @(posedge clock)
 
-    if (reset) begin
+    if ( reset ) begin
 
        // CLEAR ALL CONTROL REGISTERS TO INACTIVE STATE (IGNORE DATA REGISTERS)
        ready <= 'b0;
