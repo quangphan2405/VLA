@@ -1,802 +1,498 @@
 vcom
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:32:36 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v 
-# -- Compiling module rcvr
-# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v(84): near "else": syntax error, unexpected else.
-# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:32:36 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
-# -- Compiling module rcvr
-# ** Error (suppressible): (vlog-13302) Empty case statement. SystemVerilog syntax requires at least one branch.
-# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:32:36 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v 
-# -- Compiling module rcvr
-# ** Error (suppressible): (vlog-13302) Empty case statement. SystemVerilog syntax requires at least one branch.
-# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:32:36 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v 
-# -- Compiling module rcvr_test
+# Start time: 01:25:14 on Dec 27,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo.v 
+# -- Compiling module fifo
 # 
 # Top level modules:
-# 	rcvr_test
-# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
+# 	fifo
+# End time: 01:25:14 on Dec 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:32:36 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v 
-# -- Compiling module rcvr
-# ** Error (suppressible): (vlog-13302) Empty case statement. SystemVerilog syntax requires at least one branch.
-# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:32:36 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
-# -- Compiling module rcvr
-# ** Error (suppressible): (vlog-13302) Empty case statement. SystemVerilog syntax requires at least one branch.
-# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:32:36 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v 
-# -- Compiling module rcvr_test
+# Start time: 01:25:14 on Dec 27,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v 
+# -- Compiling module fifo_test
 # 
 # Top level modules:
-# 	rcvr_test
-# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
+# 	fifo_test
+# End time: 01:25:14 on Dec 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:32:36 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v 
-# -- Compiling module rcvr
-# ** Error: (vlog-13069) /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v(84): near "else": syntax error, unexpected else.
-# End time: 21:32:36 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:33:23 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 21:33:23 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:33:23 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v 
-# -- Compiling module rcvr_test
-# 
-# Top level modules:
-# 	rcvr_test
-# End time: 21:33:23 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim
-# vsim work.rcvr_test 
-# Start time: 21:33:44 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
+vsim work.fifo_test
+# vsim work.fifo_test 
+# Start time: 01:25:16 on Dec 27,2020
+# Loading work.fifo_test
+# Loading work.fifo
+add wave -position insertpoint sim:/fifo_test/fifo_inst/*
 run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 39: Got character "I"
-# At time 77: Put character " "
-# At time 95: Got character " "
-# At time 117: Put character "L"
-# At time 127: Got character "L"
-# At time 153: Put character "o"
-# At time 175: Got character "o"
-# At time 193: Put character "v"
-# At time 207: Got character "v"
-# At time 231: Put character "e"
-# At time 257: Got character "e"
-# At time 275: Put character " "
-# At time 297: Got character " "
-# At time 309: Put character "V"
-# At time 313: Got character "V"
-# At time 349: Put character "e"
-# At time 365: Got character "e"
-# At time 391: Put character "r"
-# At time 423: Got character "r"
-# At time 425: Put character "i"
-# At time 433: Got character "i"
-# At time 459: Put character "l"
-# At time 487: Got character "l"
-# At time 495: Put character "o"
-# At time 507: Got character "o"
-# At time 537: Put character "g"
-# At time 563: Got character "g"
-# Message received: I Love Verilog
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
-# 1
-# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
+#                    0 0 0 0 0 11111111 x xxxxxxxxx
+#                   10 1 0 0 0 11111111 x xxxxxxxxx
+#                   20 0 1 0 0 11111111 0 1xxxxxxxx
+#                   30 1 1 0 0 11111111 0 1xxxxxxxx
+#                   40 0 0 0 0 11111111 0 1xxxxxxxx
+#                   50 1 0 0 0 11111111 0 1xxxxxxxx
+#                   60 0 0 1 0 11111111 0 1xxxxxxxx
+#                   70 1 0 1 0 11111111 0 0xxxxxxxx
+#                   80 0 0 0 1 11111111 0 0xxxxxxxx
+#                   90 1 0 0 1 11111111 0 111111111
+#                  100 0 0 1 0 11111111 0 111111111
+#                  110 1 0 1 0 11111111 0 011111111
+#                  120 0 0 1 0 11111110 0 011111111
+#                  130 1 0 1 0 11111110 0 011111111
+#                  140 0 0 1 0 11111101 0 011111111
+#                  150 1 0 1 0 11111101 0 011111111
+#                  160 0 0 1 0 11111100 0 011111111
+#                  170 1 0 1 0 11111100 0 011111111
+#                  180 0 0 1 0 11111011 0 011111111
+#                  190 1 0 1 0 11111011 0 011111111
+#                  200 0 0 1 0 11111010 0 011111111
+#                  210 1 0 1 0 11111010 0 011111111
+#                  220 0 0 1 0 11111001 0 011111111
+#                  230 1 0 1 0 11111001 0 011111111
+#                  240 0 0 1 0 11111000 0 011111111
+#                  250 1 0 1 0 11111000 0 011111111
+#                  260 0 0 1 0 11110111 0 011111111
+#                  270 1 0 1 0 11110111 0 011111111
+#                  280 0 0 1 0 11110110 0 011111111
+#                  290 1 0 1 0 11110110 0 011111111
+#                  300 0 0 1 0 11110101 0 011111111
+#                  310 1 0 1 0 11110101 0 011111111
+#                  320 0 0 1 0 11110100 0 011111111
+#                  330 1 0 1 0 11110100 0 011111111
+#                  340 0 0 1 0 11110011 0 011111111
+#                  350 1 0 1 0 11110011 0 011111111
+#                  360 0 0 1 0 11110010 0 011111111
+#                  370 1 0 1 0 11110010 0 011111111
+#                  380 0 0 1 0 11110001 0 011111111
+#                  390 1 0 1 0 11110001 0 011111111
+#                  400 0 0 1 0 11110000 0 011111111
+#                  410 1 0 1 0 11110000 0 011111111
+#                  420 0 0 1 0 11101111 0 011111111
+#                  430 1 0 1 0 11101111 0 011111111
+#                  440 0 0 1 0 11101110 0 011111111
+#                  450 1 0 1 0 11101110 0 011111111
+#                  460 0 0 1 0 11101101 0 011111111
+#                  470 1 0 1 0 11101101 0 011111111
+#                  480 0 0 1 0 11101100 0 011111111
+#                  490 1 0 1 0 11101100 0 011111111
+#                  500 0 0 1 0 11101011 0 011111111
+#                  510 1 0 1 0 11101011 0 011111111
+#                  520 0 0 1 0 11101010 0 011111111
+#                  530 1 0 1 0 11101010 0 011111111
+#                  540 0 0 1 0 11101001 0 011111111
+#                  550 1 0 1 0 11101001 0 011111111
+#                  560 0 0 1 0 11101000 0 011111111
+#                  570 1 0 1 0 11101000 0 011111111
+#                  580 0 0 1 0 11100111 0 011111111
+#                  590 1 0 1 0 11100111 0 011111111
+#                  600 0 0 1 0 11100110 0 011111111
+#                  610 1 0 1 0 11100110 0 011111111
+#                  620 0 0 1 0 11100101 0 011111111
+#                  630 1 0 1 0 11100101 0 011111111
+#                  640 0 0 1 0 11100100 0 011111111
+#                  650 1 0 1 0 11100100 0 011111111
+#                  660 0 0 1 0 11100011 0 011111111
+#                  670 1 0 1 0 11100011 0 011111111
+#                  680 0 0 1 0 11100010 0 011111111
+#                  690 1 0 1 0 11100010 0 011111111
+#                  700 0 0 1 0 11100001 0 011111111
+#                  710 1 0 1 0 11100001 0 011111111
+#                  720 0 0 1 0 11100000 0 011111111
+#                  730 1 0 1 0 11100000 1 011111111
+#                  740 0 0 0 1 11100000 1 011111111
+#                  750 1 0 0 1 11100000 0 011111111
+#                  760 0 0 0 1 11100000 0 011111111
+#                  770 1 0 0 1 11100000 0 011111110
+#                  780 0 0 0 1 11100000 0 011111110
+#                  790 1 0 0 1 11100000 0 011111101
+#                  800 0 0 0 1 11100000 0 011111101
+#                  810 1 0 0 1 11100000 0 011111100
+#                  820 0 0 0 1 11100000 0 011111100
+#                  830 1 0 0 1 11100000 0 011111011
+#                  840 0 0 0 1 11100000 0 011111011
+#                  850 1 0 0 1 11100000 0 011111010
+#                  860 0 0 0 1 11100000 0 011111010
+#                  870 1 0 0 1 11100000 0 011111001
+#                  880 0 0 0 1 11100000 0 011111001
+#                  890 1 0 0 1 11100000 0 011111000
+#                  900 0 0 0 1 11100000 0 011111000
+#                  910 1 0 0 1 11100000 0 011110111
+#                  920 0 0 0 1 11100000 0 011110111
+#                  930 1 0 0 1 11100000 0 011110110
+#                  940 0 0 0 1 11100000 0 011110110
+#                  950 1 0 0 1 11100000 0 011110101
+#                  960 0 0 0 1 11100000 0 011110101
+#                  970 1 0 0 1 11100000 0 011110100
+#                  980 0 0 0 1 11100000 0 011110100
+#                  990 1 0 0 1 11100000 0 011110011
+#                 1000 0 0 0 1 11100000 0 011110011
+#                 1010 1 0 0 1 11100000 0 011110010
+#                 1020 0 0 0 1 11100000 0 011110010
+#                 1030 1 0 0 1 11100000 0 011110001
+#                 1040 0 0 0 1 11100000 0 011110001
+#                 1050 1 0 0 1 11100000 0 011110000
+#                 1060 0 0 0 1 11100000 0 011110000
+#                 1070 1 0 0 1 11100000 0 011101111
+#                 1080 0 0 0 1 11100000 0 011101111
+#                 1090 1 0 0 1 11100000 0 011101110
+#                 1100 0 0 0 1 11100000 0 011101110
+#                 1110 1 0 0 1 11100000 0 011101101
+#                 1120 0 0 0 1 11100000 0 011101101
+#                 1130 1 0 0 1 11100000 0 011101100
+#                 1140 0 0 0 1 11100000 0 011101100
+#                 1150 1 0 0 1 11100000 0 011101011
+#                 1160 0 0 0 1 11100000 0 011101011
+#                 1170 1 0 0 1 11100000 0 011101010
+#                 1180 0 0 0 1 11100000 0 011101010
+#                 1190 1 0 0 1 11100000 0 011101001
+#                 1200 0 0 0 1 11100000 0 011101001
+#                 1210 1 0 0 1 11100000 0 011101000
+#                 1220 0 0 0 1 11100000 0 011101000
+#                 1230 1 0 0 1 11100000 0 011100111
+#                 1240 0 0 0 1 11100000 0 011100111
+#                 1250 1 0 0 1 11100000 0 011100110
+#                 1260 0 0 0 1 11100000 0 011100110
+#                 1270 1 0 0 1 11100000 0 011100101
+#                 1280 0 0 0 1 11100000 0 011100101
+#                 1290 1 0 0 1 11100000 0 011100100
+#                 1300 0 0 0 1 11100000 0 011100100
+#                 1310 1 0 0 1 11100000 0 011100011
+#                 1320 0 0 0 1 11100000 0 011100011
+#                 1330 1 0 0 1 11100000 0 011100010
+#                 1340 0 0 0 1 11100000 0 011100010
+#                 1350 1 0 0 1 11100000 0 011100001
+# ** Note: $stop    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v(73)
+#    Time: 1360 ps  Iteration: 1  Instance: /fifo_test
+# Break in NamedBeginStat stimulus at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v line 73
 quit -sim
-# End time: 21:35:07 on Dec 25,2020, Elapsed time: 0:01:23
+vcom
+quit -sim
+# End time: 01:26:34 on Dec 27,2020, Elapsed time: 0:01:18
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
+# Start time: 01:26:37 on Dec 27,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v 
+# -- Compiling module fifo_test
+# 
+# Top level modules:
+# 	fifo_test
+# End time: 01:26:37 on Dec 27,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.fifo_test
+# vsim work.fifo_test 
+# Start time: 01:26:40 on Dec 27,2020
+# Loading work.fifo_test
+# Loading work.fifo
+add wave -position insertpoint sim:/fifo_test/fifo_inst/*
+run -all
+#                    0 0 0 0 0 11111111 x xxxxxxxxx
+#                   10 1 0 0 0 11111111 x xxxxxxxxx
+#                   20 0 1 0 0 11111111 0 1xxxxxxxx
+#                   30 1 1 0 0 11111111 0 1xxxxxxxx
+#                   40 0 0 0 0 11111111 0 1xxxxxxxx
+#                   50 1 0 0 0 11111111 0 1xxxxxxxx
+#                   60 0 0 1 0 11111111 0 1xxxxxxxx
+#                   70 1 0 1 0 11111111 0 0xxxxxxxx
+#                   80 0 0 0 1 11111111 0 0xxxxxxxx
+#                   90 1 0 0 1 11111111 0 111111111
+#                  100 0 0 1 0 11111111 0 111111111
+#                  110 1 0 1 0 11111111 0 011111111
+#                  120 0 0 1 0 11111110 0 011111111
+#                  130 1 0 1 0 11111110 0 011111111
+#                  140 0 0 1 0 11111101 0 011111111
+#                  150 1 0 1 0 11111101 0 011111111
+#                  160 0 0 1 0 11111100 0 011111111
+#                  170 1 0 1 0 11111100 0 011111111
+#                  180 0 0 1 0 11111011 0 011111111
+#                  190 1 0 1 0 11111011 0 011111111
+#                  200 0 0 1 0 11111010 0 011111111
+#                  210 1 0 1 0 11111010 0 011111111
+#                  220 0 0 1 0 11111001 0 011111111
+#                  230 1 0 1 0 11111001 0 011111111
+#                  240 0 0 1 0 11111000 0 011111111
+#                  250 1 0 1 0 11111000 0 011111111
+#                  260 0 0 1 0 11110111 0 011111111
+#                  270 1 0 1 0 11110111 0 011111111
+#                  280 0 0 1 0 11110110 0 011111111
+#                  290 1 0 1 0 11110110 0 011111111
+#                  300 0 0 1 0 11110101 0 011111111
+#                  310 1 0 1 0 11110101 0 011111111
+#                  320 0 0 1 0 11110100 0 011111111
+#                  330 1 0 1 0 11110100 0 011111111
+#                  340 0 0 1 0 11110011 0 011111111
+#                  350 1 0 1 0 11110011 0 011111111
+#                  360 0 0 1 0 11110010 0 011111111
+#                  370 1 0 1 0 11110010 0 011111111
+#                  380 0 0 1 0 11110001 0 011111111
+#                  390 1 0 1 0 11110001 0 011111111
+#                  400 0 0 1 0 11110000 0 011111111
+#                  410 1 0 1 0 11110000 0 011111111
+#                  420 0 0 1 0 11101111 0 011111111
+#                  430 1 0 1 0 11101111 0 011111111
+#                  440 0 0 1 0 11101110 0 011111111
+#                  450 1 0 1 0 11101110 0 011111111
+#                  460 0 0 1 0 11101101 0 011111111
+#                  470 1 0 1 0 11101101 0 011111111
+#                  480 0 0 1 0 11101100 0 011111111
+#                  490 1 0 1 0 11101100 0 011111111
+#                  500 0 0 1 0 11101011 0 011111111
+#                  510 1 0 1 0 11101011 0 011111111
+#                  520 0 0 1 0 11101010 0 011111111
+#                  530 1 0 1 0 11101010 0 011111111
+#                  540 0 0 1 0 11101001 0 011111111
+#                  550 1 0 1 0 11101001 0 011111111
+#                  560 0 0 1 0 11101000 0 011111111
+#                  570 1 0 1 0 11101000 0 011111111
+#                  580 0 0 1 0 11100111 0 011111111
+#                  590 1 0 1 0 11100111 0 011111111
+#                  600 0 0 1 0 11100110 0 011111111
+#                  610 1 0 1 0 11100110 0 011111111
+#                  620 0 0 1 0 11100101 0 011111111
+#                  630 1 0 1 0 11100101 0 011111111
+#                  640 0 0 1 0 11100100 0 011111111
+#                  650 1 0 1 0 11100100 0 011111111
+#                  660 0 0 1 0 11100011 0 011111111
+#                  670 1 0 1 0 11100011 0 011111111
+#                  680 0 0 1 0 11100010 0 011111111
+#                  690 1 0 1 0 11100010 0 011111111
+#                  700 0 0 1 0 11100001 0 011111111
+#                  710 1 0 1 0 11100001 0 011111111
+#                  720 0 0 1 0 11100000 0 011111111
+#                  730 1 0 1 0 11100000 1 011111111
+#                  740 0 0 0 1 11100000 1 011111111
+#                  750 1 0 0 1 11100000 0 011111111
+#                  760 0 0 0 1 11100000 0 011111111
+#                  770 1 0 0 1 11100000 0 011111110
+#                  780 0 0 0 1 11100000 0 011111110
+#                  790 1 0 0 1 11100000 0 011111101
+#                  800 0 0 0 1 11100000 0 011111101
+#                  810 1 0 0 1 11100000 0 011111100
+#                  820 0 0 0 1 11100000 0 011111100
+#                  830 1 0 0 1 11100000 0 011111011
+#                  840 0 0 0 1 11100000 0 011111011
+#                  850 1 0 0 1 11100000 0 011111010
+#                  860 0 0 0 1 11100000 0 011111010
+#                  870 1 0 0 1 11100000 0 011111001
+#                  880 0 0 0 1 11100000 0 011111001
+#                  890 1 0 0 1 11100000 0 011111000
+#                  900 0 0 0 1 11100000 0 011111000
+#                  910 1 0 0 1 11100000 0 011110111
+#                  920 0 0 0 1 11100000 0 011110111
+#                  930 1 0 0 1 11100000 0 011110110
+#                  940 0 0 0 1 11100000 0 011110110
+#                  950 1 0 0 1 11100000 0 011110101
+#                  960 0 0 0 1 11100000 0 011110101
+#                  970 1 0 0 1 11100000 0 011110100
+#                  980 0 0 0 1 11100000 0 011110100
+#                  990 1 0 0 1 11100000 0 011110011
+#                 1000 0 0 0 1 11100000 0 011110011
+#                 1010 1 0 0 1 11100000 0 011110010
+#                 1020 0 0 0 1 11100000 0 011110010
+#                 1030 1 0 0 1 11100000 0 011110001
+#                 1040 0 0 0 1 11100000 0 011110001
+#                 1050 1 0 0 1 11100000 0 011110000
+#                 1060 0 0 0 1 11100000 0 011110000
+#                 1070 1 0 0 1 11100000 0 011101111
+#                 1080 0 0 0 1 11100000 0 011101111
+#                 1090 1 0 0 1 11100000 0 011101110
+#                 1100 0 0 0 1 11100000 0 011101110
+#                 1110 1 0 0 1 11100000 0 011101101
+#                 1120 0 0 0 1 11100000 0 011101101
+#                 1130 1 0 0 1 11100000 0 011101100
+#                 1140 0 0 0 1 11100000 0 011101100
+#                 1150 1 0 0 1 11100000 0 011101011
+#                 1160 0 0 0 1 11100000 0 011101011
+#                 1170 1 0 0 1 11100000 0 011101010
+#                 1180 0 0 0 1 11100000 0 011101010
+#                 1190 1 0 0 1 11100000 0 011101001
+#                 1200 0 0 0 1 11100000 0 011101001
+#                 1210 1 0 0 1 11100000 0 011101000
+#                 1220 0 0 0 1 11100000 0 011101000
+#                 1230 1 0 0 1 11100000 0 011100111
+#                 1240 0 0 0 1 11100000 0 011100111
+#                 1250 1 0 0 1 11100000 0 011100110
+#                 1260 0 0 0 1 11100000 0 011100110
+#                 1270 1 0 0 1 11100000 0 011100101
+#                 1280 0 0 0 1 11100000 0 011100101
+#                 1290 1 0 0 1 11100000 0 011100100
+#                 1300 0 0 0 1 11100000 0 011100100
+#                 1310 1 0 0 1 11100000 0 011100011
+#                 1320 0 0 0 1 11100000 0 011100011
+#                 1330 1 0 0 1 11100000 0 011100010
+#                 1340 0 0 0 1 11100000 0 011100010
+#                 1350 1 0 0 1 11100000 0 011100001
+#                 1360 0 0 0 1 11100000 0 011100001
+#                 1370 1 0 0 1 11100000 0 111100000
+#                 1380 0 0 0 1 11100000 0 111100000
+#                 1390 1 0 0 1 11100000 0 111100000
+# ** Note: $stop    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v(73)
+#    Time: 1400 ps  Iteration: 1  Instance: /fifo_test
+# Break in NamedBeginStat stimulus at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v line 73
+quit -sim
+quit -sim
+# End time: 01:28:16 on Dec 27,2020, Elapsed time: 0:01:36
 # Errors: 0, Warnings: 0
 vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:35:32 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 21:35:32 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 21:35:36 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 39: Got character "I"
-# At time 77: Put character " "
-# At time 95: Got character " "
-# At time 117: Put character "L"
-# At time 127: Got character "H"
-# At time 153: Put character "o"
-# At time 175: Got character "m"
-# At time 193: Put character "v"
-# At time 207: Got character "t"
-# At time 231: Put character "e"
-# At time 257: Got character "a"
-# At time 275: Put character " "
-# At time 297: Got character " "
-# At time 309: Put character "V"
-# At time 313: Got character "T"
-# At time 349: Put character "e"
-# At time 365: Got character "a"
-# At time 391: Put character "r"
-# At time 423: Got character "t"
-# At time 425: Put character "i"
-# At time 433: Got character "i"
-# At time 459: Put character "l"
-# At time 487: Got character "h"
-# At time 495: Put character "o"
-# At time 507: Got character "m"
-# At time 537: Put character "g"
-# At time 563: Got character "e"
-# Message received: I Hmta Tatihme
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
-# 1
-# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
 quit -sim
-# End time: 21:35:50 on Dec 25,2020, Elapsed time: 0:00:14
-# Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 21:36:04 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-quit -sim
-# End time: 21:36:12 on Dec 25,2020, Elapsed time: 0:00:08
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
+vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v
 # Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:36:18 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v 
-# -- Compiling module rcvr
+# Start time: 01:28:18 on Dec 27,2020
+# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v 
+# -- Compiling module fifo_test
 # 
 # Top level modules:
-# 	rcvr
-# End time: 21:36:18 on Dec 25,2020, Elapsed time: 0:00:00
+# 	fifo_test
+# End time: 01:28:18 on Dec 27,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 21:36:21 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
+vsim work.fifo_test
+# vsim work.fifo_test 
+# Start time: 01:28:21 on Dec 27,2020
+# Loading work.fifo_test
+# Loading work.fifo
+add wave -position insertpoint sim:/fifo_test/fifo_inst/*
 run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 39: Got character "I"
-# At time 77: Put character " "
-# At time 95: Got character " "
-# At time 117: Put character "L"
-# At time 127: Got character "L"
-# At time 153: Put character "o"
-# At time 175: Got character "o"
-# At time 193: Put character "v"
-# At time 207: Got character "v"
-# At time 231: Put character "e"
-# At time 257: Got character "e"
-# At time 275: Put character " "
-# At time 297: Got character " "
-# At time 309: Put character "V"
-# At time 313: Got character "V"
-# At time 349: Put character "e"
-# At time 365: Got character "e"
-# At time 391: Put character "r"
-# At time 423: Got character "r"
-# At time 425: Put character "i"
-# At time 433: Got character "i"
-# At time 459: Put character "l"
-# At time 487: Got character "l"
-# At time 495: Put character "o"
-# At time 507: Got character "o"
-# At time 537: Put character "g"
-# At time 563: Got character "g"
-# Message received: I Love Verilog
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
-# 1
-# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
-quit -sim
-# End time: 21:48:24 on Dec 25,2020, Elapsed time: 0:12:03
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:48:28 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 21:48:28 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 21:48:48 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 37: Got character "§"
-# At time 77: Put character " "
-# At time 93: Got character "ê"
-# At time 117: Put character "L"
-# At time 125: Got character "¶"
-# At time 153: Put character "o"
-# At time 173: Got character "∑"
-# At time 193: Put character "v"
-# At time 205: Got character "ª"
-# At time 231: Put character "e"
-# At time 255: Got character "≤"
-# At time 275: Put character " "
-# At time 295: Got character "ê"
-# At time 309: Put character "V"
-# At time 311: Got character "´"
-# At time 349: Put character "e"
-# At time 363: Got character "≤"
-# At time 391: Put character "r"
-# At time 421: Got character "π"
-# At time 425: Put character "i"
-# At time 431: Got character "¥"
-# At time 459: Put character "l"
-# At time 485: Got character "∂"
-# At time 495: Put character "o"
-# At time 505: Got character "∑"
-# At time 537: Put character "g"
-# At time 561: Got character "≥"
-# Message received: §ê¶∑ª≤ê´≤π¥∂∑≥
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 561 ps  Iteration: 1  Instance: /rcvr_test
-# 1
-# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
-quit -sim
-# End time: 21:50:18 on Dec 25,2020, Elapsed time: 0:01:30
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:50:26 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 21:50:26 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 21:50:29 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-run -all
-# Message sending:  I Love Verilog
-# At time 7: Got character " "
-# At time 35: Put character "I"
-# At time 53: Got character "I"
-# At time 77: Put character " "
-# At time 80: Data out buffer is overrun
-# At time 87: Got character " "
-# At time 117: Put character "L"
-# At time 118: Data out buffer is overrun
-# At time 153: Put character "o"
-# At time 193: Put character "v"
-# At time 231: Put character "e"
-# At time 275: Put character " "
-# At time 309: Put character "V"
-# At time 349: Put character "e"
-# At time 391: Put character "r"
-# At time 425: Put character "i"
-# At time 459: Put character "l"
-# At time 495: Put character "o"
-# At time 537: Put character "g"
-# TEST TIMEOUT
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(25)
-#    Time: 600 ps  Iteration: 0  Instance: /rcvr_test
-# 1
-# Break in Module rcvr_test at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 25
-quit -sim
-# End time: 21:51:39 on Dec 25,2020, Elapsed time: 0:01:10
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:51:45 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 21:51:45 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 21:51:48 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 39: Got character "I"
-# At time 77: Put character " "
-# At time 95: Got character " "
-# At time 117: Put character "L"
-# At time 127: Got character "L"
-# At time 153: Put character "o"
-# At time 175: Got character "o"
-# At time 193: Put character "v"
-# At time 207: Got character "v"
-# At time 231: Put character "e"
-# At time 257: Got character "e"
-# At time 275: Put character " "
-# At time 297: Got character " "
-# At time 309: Put character "V"
-# At time 313: Got character "V"
-# At time 349: Put character "e"
-# At time 365: Got character "e"
-# At time 391: Put character "r"
-# At time 423: Got character "r"
-# At time 425: Put character "i"
-# At time 433: Got character "i"
-# At time 459: Put character "l"
-# At time 487: Got character "l"
-# At time 495: Put character "o"
-# At time 507: Got character "o"
-# At time 537: Put character "g"
-# At time 563: Got character "g"
-# Message received: I Love Verilog
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
-# 1
-# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
-quit -sim
-# End time: 21:55:41 on Dec 25,2020, Elapsed time: 0:03:53
-# Errors: 0, Warnings: 0
-VCOM
-# invalid command name "VCOM"
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 21:55:49 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 21:55:49 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim
-# vsim work.rcvr_test 
-# Start time: 21:55:58 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 39: Got character "I"
-# At time 77: Put character " "
-# At time 95: Got character " "
-# At time 117: Put character "L"
-# At time 127: Got character "L"
-# At time 153: Put character "o"
-# At time 175: Got character "o"
-# At time 193: Put character "v"
-# At time 207: Got character "v"
-# At time 231: Put character "e"
-# At time 257: Got character "e"
-# At time 275: Put character " "
-# At time 297: Got character " "
-# At time 309: Put character "V"
-# At time 313: Got character "V"
-# At time 349: Put character "e"
-# At time 365: Got character "e"
-# At time 391: Put character "r"
-# At time 423: Got character "r"
-# At time 425: Put character "i"
-# At time 433: Got character "i"
-# At time 459: Put character "l"
-# At time 487: Got character "l"
-# At time 495: Put character "o"
-# At time 507: Got character "o"
-# At time 537: Put character "g"
-# At time 563: Got character "g"
-# Message received: I Love Verilog
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
-# 1
-# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
-quit -sim
-# End time: 21:59:24 on Dec 25,2020, Elapsed time: 0:03:26
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:01:37 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 22:01:37 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 22:01:40 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 39: Got character "I"
-# At time 77: Put character " "
-# At time 95: Got character " "
-# At time 117: Put character "L"
-# At time 127: Got character "L"
-# At time 153: Put character "o"
-# At time 175: Got character "o"
-# At time 193: Put character "v"
-# At time 207: Got character "v"
-# At time 231: Put character "e"
-# At time 257: Got character "e"
-# At time 275: Put character " "
-# At time 297: Got character " "
-# At time 309: Put character "V"
-# At time 313: Got character "V"
-# At time 349: Put character "e"
-# At time 365: Got character "e"
-# At time 391: Put character "r"
-# At time 423: Got character "r"
-# At time 425: Put character "i"
-# At time 433: Got character "i"
-# At time 459: Put character "l"
-# At time 487: Got character "l"
-# At time 495: Put character "o"
-# At time 507: Got character "o"
-# At time 537: Put character "g"
-# At time 563: Got character "g"
-# Message received: I Love Verilog
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
-# 1
-# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
-quit -sim
-# End time: 22:04:16 on Dec 25,2020, Elapsed time: 0:02:36
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:04:21 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 22:04:21 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 22:04:23 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 39: Got character "I"
-# At time 77: Put character " "
-# At time 95: Got character " "
-# At time 117: Put character "L"
-# At time 127: Got character "L"
-# At time 153: Put character "o"
-# At time 175: Got character "o"
-# At time 193: Put character "v"
-# At time 207: Got character "v"
-# At time 231: Put character "e"
-# At time 257: Got character "e"
-# At time 275: Put character " "
-# At time 297: Got character " "
-# At time 309: Put character "V"
-# At time 313: Got character "V"
-# At time 349: Put character "e"
-# At time 365: Got character "e"
-# At time 391: Put character "r"
-# At time 423: Got character "r"
-# At time 425: Put character "i"
-# At time 433: Got character "i"
-# At time 459: Put character "l"
-# At time 487: Got character "l"
-# At time 495: Put character "o"
-# At time 507: Got character "o"
-# At time 537: Put character "g"
-# At time 563: Got character "g"
-# Message received: I Love Verilog
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
-# 1
-# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
-quit -sim
-# End time: 22:04:53 on Dec 25,2020, Elapsed time: 0:00:30
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:04:58 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 22:04:58 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 22:05:00 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 39: Got character "I"
-# At time 77: Put character " "
-# At time 95: Got character " "
-# At time 117: Put character "L"
-# At time 127: Got character "L"
-# At time 153: Put character "o"
-# At time 175: Got character "o"
-# At time 193: Put character "v"
-# At time 207: Got character "v"
-# At time 231: Put character "e"
-# At time 257: Got character "e"
-# At time 275: Put character " "
-# At time 297: Got character " "
-# At time 309: Put character "V"
-# At time 313: Got character "V"
-# At time 349: Put character "e"
-# At time 365: Got character "e"
-# At time 391: Put character "r"
-# At time 423: Got character "r"
-# At time 425: Put character "i"
-# At time 433: Got character "i"
-# At time 459: Put character "l"
-# At time 487: Got character "l"
-# At time 495: Put character "o"
-# At time 507: Got character "o"
-# At time 537: Put character "g"
-# At time 563: Got character "g"
-# Message received: I Love Verilog
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
-# 1
-# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
-quit -sim
-# End time: 22:08:24 on Dec 25,2020, Elapsed time: 0:03:24
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:08:28 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_1.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 22:08:28 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 22:08:32 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 39: Got character "I"
-# At time 77: Put character " "
-# At time 95: Got character " "
-# At time 117: Put character "L"
-# At time 127: Got character "L"
-# At time 153: Put character "o"
-# At time 175: Got character "o"
-# At time 193: Put character "v"
-# At time 207: Got character "v"
-# At time 231: Put character "e"
-# At time 257: Got character "e"
-# At time 275: Put character " "
-# At time 297: Got character " "
-# At time 309: Put character "V"
-# At time 313: Got character "V"
-# At time 349: Put character "e"
-# At time 365: Got character "e"
-# At time 391: Put character "r"
-# At time 423: Got character "r"
-# At time 425: Put character "i"
-# At time 433: Got character "i"
-# At time 459: Put character "l"
-# At time 487: Got character "l"
-# At time 495: Put character "o"
-# At time 507: Got character "o"
-# At time 537: Put character "g"
-# At time 563: Got character "g"
-# Message received: I Love Verilog
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
-# 1
-# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
-quit -sim
-# End time: 22:08:42 on Dec 25,2020, Elapsed time: 0:00:10
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:08:47 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_2.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 22:08:47 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 22:08:50 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 39: Got character "I"
-# At time 77: Put character " "
-# At time 95: Got character " "
-# At time 117: Put character "L"
-# At time 127: Got character "L"
-# At time 153: Put character "o"
-# At time 175: Got character "o"
-# At time 193: Put character "v"
-# At time 207: Got character "v"
-# At time 231: Put character "e"
-# At time 257: Got character "e"
-# At time 275: Put character " "
-# At time 297: Got character " "
-# At time 309: Put character "V"
-# At time 313: Got character "V"
-# At time 349: Put character "e"
-# At time 365: Got character "e"
-# At time 391: Put character "r"
-# At time 423: Got character "r"
-# At time 425: Put character "i"
-# At time 433: Got character "i"
-# At time 459: Put character "l"
-# At time 487: Got character "l"
-# At time 495: Put character "o"
-# At time 507: Got character "o"
-# At time 537: Put character "g"
-# At time 563: Got character "g"
-# Message received: I Love Verilog
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
-# 1
-# Break in NamedBeginStat RCV at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v line 60
-quit -sim
-# End time: 22:08:58 on Dec 25,2020, Elapsed time: 0:00:08
-# Errors: 0, Warnings: 0
-vcom
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:09:01 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 22:09:01 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1_3 Compiler 2020.04 Apr 27 2020
-# Start time: 22:09:02 on Dec 25,2020
-# vlog -reportprogress 300 -work work /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v 
-# -- Compiling module rcvr
-# 
-# Top level modules:
-# 	rcvr
-# End time: 22:09:02 on Dec 25,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.rcvr_test
-# vsim work.rcvr_test 
-# Start time: 22:09:08 on Dec 25,2020
-# Loading work.rcvr_test
-# Loading work.rcvr
-run -all
-# Message sending:  I Love Verilog
-# At time 35: Put character "I"
-# At time 39: Got character "I"
-# At time 77: Put character " "
-# At time 95: Got character " "
-# At time 117: Put character "L"
-# At time 127: Got character "L"
-# At time 153: Put character "o"
-# At time 175: Got character "o"
-# At time 193: Put character "v"
-# At time 207: Got character "v"
-# At time 231: Put character "e"
-# At time 257: Got character "e"
-# At time 275: Put character " "
-# At time 297: Got character " "
-# At time 309: Put character "V"
-# At time 313: Got character "V"
-# At time 349: Put character "e"
-# At time 365: Got character "e"
-# At time 391: Put character "r"
-# At time 423: Got character "r"
-# At time 425: Put character "i"
-# At time 433: Got character "i"
-# At time 459: Put character "l"
-# At time 487: Got character "l"
-# At time 495: Put character "o"
-# At time 507: Got character "o"
-# At time 537: Put character "g"
-# At time 563: Got character "g"
-# Message received: I Love Verilog
-# TEST DONE
-# ** Note: $finish    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v(60)
-#    Time: 563 ps  Iteration: 1  Instance: /rcvr_test
-# End time: 22:09:11 on Dec 25,2020, Elapsed time: 0:00:03
+#                    0 0 0 0 0 11111111 x xxxxxxxxx
+#                   10 1 0 0 0 11111111 x xxxxxxxxx
+#                   20 0 1 0 0 11111111 0 1xxxxxxxx
+#                   30 1 1 0 0 11111111 0 1xxxxxxxx
+#                   40 0 0 0 0 11111111 0 1xxxxxxxx
+#                   50 1 0 0 0 11111111 0 1xxxxxxxx
+#                   60 0 0 1 0 11111111 0 1xxxxxxxx
+#                   70 1 0 1 0 11111111 0 0xxxxxxxx
+#                   80 0 0 0 1 11111111 0 0xxxxxxxx
+#                   90 1 0 0 1 11111111 0 111111111
+#                  100 0 0 1 0 11111111 0 111111111
+#                  110 1 0 1 0 11111111 0 011111111
+#                  120 0 0 1 0 11111110 0 011111111
+#                  130 1 0 1 0 11111110 0 011111111
+#                  140 0 0 1 0 11111101 0 011111111
+#                  150 1 0 1 0 11111101 0 011111111
+#                  160 0 0 1 0 11111100 0 011111111
+#                  170 1 0 1 0 11111100 0 011111111
+#                  180 0 0 1 0 11111011 0 011111111
+#                  190 1 0 1 0 11111011 0 011111111
+#                  200 0 0 1 0 11111010 0 011111111
+#                  210 1 0 1 0 11111010 0 011111111
+#                  220 0 0 1 0 11111001 0 011111111
+#                  230 1 0 1 0 11111001 0 011111111
+#                  240 0 0 1 0 11111000 0 011111111
+#                  250 1 0 1 0 11111000 0 011111111
+#                  260 0 0 1 0 11110111 0 011111111
+#                  270 1 0 1 0 11110111 0 011111111
+#                  280 0 0 1 0 11110110 0 011111111
+#                  290 1 0 1 0 11110110 0 011111111
+#                  300 0 0 1 0 11110101 0 011111111
+#                  310 1 0 1 0 11110101 0 011111111
+#                  320 0 0 1 0 11110100 0 011111111
+#                  330 1 0 1 0 11110100 0 011111111
+#                  340 0 0 1 0 11110011 0 011111111
+#                  350 1 0 1 0 11110011 0 011111111
+#                  360 0 0 1 0 11110010 0 011111111
+#                  370 1 0 1 0 11110010 0 011111111
+#                  380 0 0 1 0 11110001 0 011111111
+#                  390 1 0 1 0 11110001 0 011111111
+#                  400 0 0 1 0 11110000 0 011111111
+#                  410 1 0 1 0 11110000 0 011111111
+#                  420 0 0 1 0 11101111 0 011111111
+#                  430 1 0 1 0 11101111 0 011111111
+#                  440 0 0 1 0 11101110 0 011111111
+#                  450 1 0 1 0 11101110 0 011111111
+#                  460 0 0 1 0 11101101 0 011111111
+#                  470 1 0 1 0 11101101 0 011111111
+#                  480 0 0 1 0 11101100 0 011111111
+#                  490 1 0 1 0 11101100 0 011111111
+#                  500 0 0 1 0 11101011 0 011111111
+#                  510 1 0 1 0 11101011 0 011111111
+#                  520 0 0 1 0 11101010 0 011111111
+#                  530 1 0 1 0 11101010 0 011111111
+#                  540 0 0 1 0 11101001 0 011111111
+#                  550 1 0 1 0 11101001 0 011111111
+#                  560 0 0 1 0 11101000 0 011111111
+#                  570 1 0 1 0 11101000 0 011111111
+#                  580 0 0 1 0 11100111 0 011111111
+#                  590 1 0 1 0 11100111 0 011111111
+#                  600 0 0 1 0 11100110 0 011111111
+#                  610 1 0 1 0 11100110 0 011111111
+#                  620 0 0 1 0 11100101 0 011111111
+#                  630 1 0 1 0 11100101 0 011111111
+#                  640 0 0 1 0 11100100 0 011111111
+#                  650 1 0 1 0 11100100 0 011111111
+#                  660 0 0 1 0 11100011 0 011111111
+#                  670 1 0 1 0 11100011 0 011111111
+#                  680 0 0 1 0 11100010 0 011111111
+#                  690 1 0 1 0 11100010 0 011111111
+#                  700 0 0 1 0 11100001 0 011111111
+#                  710 1 0 1 0 11100001 0 011111111
+#                  720 0 0 1 0 11100000 0 011111111
+#                  730 1 0 1 0 11100000 1 011111111
+#                  740 0 0 0 1 11100000 1 011111111
+#                  750 1 0 0 1 11100000 0 011111111
+#                  760 0 0 0 1 11100000 0 011111111
+#                  770 1 0 0 1 11100000 0 011111110
+#                  780 0 0 0 1 11100000 0 011111110
+#                  790 1 0 0 1 11100000 0 011111101
+#                  800 0 0 0 1 11100000 0 011111101
+#                  810 1 0 0 1 11100000 0 011111100
+#                  820 0 0 0 1 11100000 0 011111100
+#                  830 1 0 0 1 11100000 0 011111011
+#                  840 0 0 0 1 11100000 0 011111011
+#                  850 1 0 0 1 11100000 0 011111010
+#                  860 0 0 0 1 11100000 0 011111010
+#                  870 1 0 0 1 11100000 0 011111001
+#                  880 0 0 0 1 11100000 0 011111001
+#                  890 1 0 0 1 11100000 0 011111000
+#                  900 0 0 0 1 11100000 0 011111000
+#                  910 1 0 0 1 11100000 0 011110111
+#                  920 0 0 0 1 11100000 0 011110111
+#                  930 1 0 0 1 11100000 0 011110110
+#                  940 0 0 0 1 11100000 0 011110110
+#                  950 1 0 0 1 11100000 0 011110101
+#                  960 0 0 0 1 11100000 0 011110101
+#                  970 1 0 0 1 11100000 0 011110100
+#                  980 0 0 0 1 11100000 0 011110100
+#                  990 1 0 0 1 11100000 0 011110011
+#                 1000 0 0 0 1 11100000 0 011110011
+#                 1010 1 0 0 1 11100000 0 011110010
+#                 1020 0 0 0 1 11100000 0 011110010
+#                 1030 1 0 0 1 11100000 0 011110001
+#                 1040 0 0 0 1 11100000 0 011110001
+#                 1050 1 0 0 1 11100000 0 011110000
+#                 1060 0 0 0 1 11100000 0 011110000
+#                 1070 1 0 0 1 11100000 0 011101111
+#                 1080 0 0 0 1 11100000 0 011101111
+#                 1090 1 0 0 1 11100000 0 011101110
+#                 1100 0 0 0 1 11100000 0 011101110
+#                 1110 1 0 0 1 11100000 0 011101101
+#                 1120 0 0 0 1 11100000 0 011101101
+#                 1130 1 0 0 1 11100000 0 011101100
+#                 1140 0 0 0 1 11100000 0 011101100
+#                 1150 1 0 0 1 11100000 0 011101011
+#                 1160 0 0 0 1 11100000 0 011101011
+#                 1170 1 0 0 1 11100000 0 011101010
+#                 1180 0 0 0 1 11100000 0 011101010
+#                 1190 1 0 0 1 11100000 0 011101001
+#                 1200 0 0 0 1 11100000 0 011101001
+#                 1210 1 0 0 1 11100000 0 011101000
+#                 1220 0 0 0 1 11100000 0 011101000
+#                 1230 1 0 0 1 11100000 0 011100111
+#                 1240 0 0 0 1 11100000 0 011100111
+#                 1250 1 0 0 1 11100000 0 011100110
+#                 1260 0 0 0 1 11100000 0 011100110
+#                 1270 1 0 0 1 11100000 0 011100101
+#                 1280 0 0 0 1 11100000 0 011100101
+#                 1290 1 0 0 1 11100000 0 011100100
+#                 1300 0 0 0 1 11100000 0 011100100
+#                 1310 1 0 0 1 11100000 0 011100011
+#                 1320 0 0 0 1 11100000 0 011100011
+#                 1330 1 0 0 1 11100000 0 011100010
+#                 1340 0 0 0 1 11100000 0 011100010
+#                 1350 1 0 0 1 11100000 0 011100001
+#                 1360 0 0 0 1 11100000 0 011100001
+#                 1370 1 0 0 1 11100000 0 111100000
+# ** Note: $stop    : /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v(73)
+#    Time: 1380 ps  Iteration: 1  Instance: /fifo_test
+# Break in NamedBeginStat stimulus at /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v line 73
+# End time: 01:29:09 on Dec 27,2020, Elapsed time: 0:00:48
 # Errors: 0, Warnings: 0
