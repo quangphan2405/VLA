@@ -468,48 +468,48 @@ R33
 R7
 R8
 vrcvr
-!s110 1608926942
+!s110 1609027736
 !i10b 1
-!s100 MBaM6WCP9Z7820[Zz6e_?2
+!s100 eF7?V<d?JLIJaENl0@OjE2
 R2
-IX=_MjD8hG:QU^>@b]NG0A2
+Imfgh<QQ4[G3IQT=^62@YV2
 R3
 R12
-w1608926687
-8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v
-F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v
-!i122 117
-L0 1 104
+w1609027729
+8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr.v
+F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr.v
+!i122 145
+L0 1 86
 R5
 r1
 !s85 0
 31
-!s108 1608926942.000000
-!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v|
-!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_3.v|
+!s108 1609027736.000000
+!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr.v|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr.v|
 !i113 1
 R7
 R8
 vrcvr_test
-!s110 1608924803
+!s110 1609026688
 !i10b 1
 !s100 l0GBK16eWEiTzfUJIQPDJ1
 R2
-I[AIF2Ic@NF2QNCK]AbKzY1
+Ifn525leDR6dz@3JHDOb0Q0
 R3
 R12
-w1459766489
-8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v
-F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v
-!i122 104
+w1459766490
+8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr_test.v
+F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr_test.v
+!i122 134
 L0 1 63
 R5
 r1
 !s85 0
 31
-!s108 1608924803.000000
-!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v|
-!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fsm/rcvr_test.v|
+!s108 1609026688.000000
+!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr_test.v|
+!s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr_test.v|
 !i113 1
 R7
 R8
