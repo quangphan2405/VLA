@@ -55,8 +55,31 @@ R6
 !i113 1
 R7
 R8
+varbiter
+Z10 !s110 1609156164
+!i10b 1
+!s100 9[0dYXL?jAD0d]g]7A0^<3
+R2
+Ib>cVg_lAabNb1b0mG8:e92
+R3
+Z11 d/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim
+Z12 w1609156137
+Z13 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/lock/test.v
+Z14 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/lock/test.v
+!i122 157
+L0 7 19
+R5
+r1
+!s85 0
+31
+Z15 !s108 1609156164.000000
+!s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/lock/test.v|
+Z16 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/lock/test.v|
+!i113 1
+R7
+R8
 vcontroller
-Z10 !s110 1607302443
+Z17 !s110 1607302443
 !i10b 1
 !s100 O50EmC0LkHZ_oLQ:h70go0
 R2
@@ -72,14 +95,14 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1607302443.000000
+Z18 !s108 1607302443.000000
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller.v|
 !i113 1
 R7
 R8
 vcontroller_test
-R10
+R17
 !i10b 1
 !s100 4VhYWzUzRRDj^U<e:QRQB3
 R2
@@ -95,7 +118,7 @@ R5
 r1
 !s85 0
 31
-R11
+R18
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller_test.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab7-ctrl/controller_test.v|
 !i113 1
@@ -108,7 +131,7 @@ vcounter
 R2
 I7kXKmNEaG<T]kQX3KdX9;0
 R3
-Z12 d/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim
+R11
 w1608751251
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/cntr/counter.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/cntr/counter.v
@@ -131,30 +154,30 @@ vcounter_test
 R2
 I21X?7i<]knG:1i5gZG18?0
 R3
-R12
+R11
 w1608770620
-Z13 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v
-Z14 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v
+Z19 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v
+Z20 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v
 !i122 80
-Z15 L0 1 54
+Z21 L0 1 54
 R5
 r1
 !s85 0
 31
 !s108 1608770641.000000
-Z16 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v|
-Z17 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v|
+Z22 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v|
+Z23 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter_test.v|
 !i113 1
 R7
 R8
 vcounterfunc
-Z18 !s110 1608770711
+Z24 !s110 1608770711
 !i10b 1
 !s100 T0BXbY_16dVdUnb5UCnm_1
 R2
 I_Z=>8j>WSi9IaiGl2zKJ11
 R3
-R12
+R11
 w1608770525
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter.v
@@ -164,37 +187,37 @@ R5
 r1
 !s85 0
 31
-Z19 !s108 1608770711.000000
+Z25 !s108 1608770711.000000
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/func/counter.v|
 !i113 1
 R7
 R8
 vcounterfunc_test
-R18
+R24
 !i10b 1
 !s100 XcUJEg2jz?N6VQJPM>3R41
 R2
 Ik4=gb<OiahR5`DhNT<m452
 R3
-R12
+R11
 w1608770684
-R13
-R14
+R19
+R20
 !i122 82
-R15
+R21
 R5
 r1
 !s85 0
 31
-R19
-R16
-R17
+R25
+R22
+R23
 !i113 1
 R7
 R8
 vdriver
-Z20 !s110 1607285259
+Z26 !s110 1607285259
 !i10b 1
 !s100 ohSo88GzMF0:X>=9i0TKO2
 R2
@@ -210,14 +233,14 @@ R5
 r1
 !s85 0
 31
-Z21 !s108 1607285259.000000
+Z27 !s108 1607285259.000000
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab5-drvr/driver.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab5-drvr/driver.v|
 !i113 1
 R7
 R8
 vdriver_test
-R20
+R26
 !i10b 1
 !s100 zGc>zV_:=W?@ELoCl1`N;2
 R2
@@ -233,7 +256,7 @@ R5
 r1
 !s85 0
 31
-R21
+R27
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab5-drvr/driver_test.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA_modelsim/lab5-drvr/driver_test.v|
 !i113 1
@@ -246,12 +269,12 @@ vfifo
 R2
 Im@Vk=8Imo<7z>cm4gYiUD0
 R3
-R12
+R11
 w1609024390
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo.v
 !i122 129
-Z22 L0 1 46
+Z28 L0 1 46
 R5
 r1
 !s85 0
@@ -269,7 +292,7 @@ vfifo_test
 R2
 I_P@PS0MUMF>AGSjgAb`3Y2
 R3
-R12
+R11
 w1609025276
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/fifo/fifo_test.v
@@ -286,13 +309,13 @@ r1
 R7
 R8
 vmemory
-Z23 !s110 1608771051
+Z29 !s110 1608771051
 !i10b 1
 !s100 ;g:PP1zk`6@[KL;IDob7;0
 R2
 I`GFm0NT0jOKlFBK9jTHOf0
 R3
-R12
+R11
 w1608771027
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory.v
@@ -302,20 +325,20 @@ R5
 r1
 !s85 0
 31
-Z24 !s108 1608771051.000000
+Z30 !s108 1608771051.000000
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory.v|
 !i113 1
 R7
 R8
 vmemory_test
-R23
+R29
 !i10b 1
 !s100 AKILY<2TgLUSP6:cBGdJU0
 R2
 IFjjL0bhkA5:F@QCNBoK9i1
 R3
-R12
+R11
 w1459766497
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory_test.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory_test.v
@@ -325,20 +348,20 @@ R5
 r1
 !s85 0
 31
-R24
+R30
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory_test.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/mem/memory_test.v|
 !i113 1
 R7
 R8
 vmemorytask
-Z25 !s110 1608772825
+Z31 !s110 1608772825
 !i10b 1
 !s100 L[;RC]i6SgPgiTmzQaGl>3
 R2
 IZeBbC__m<9nmhD@V[kVDT1
 R3
-R12
+R11
 w1608772341
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v
@@ -348,20 +371,20 @@ R5
 r1
 !s85 0
 31
-Z26 !s108 1608772825.000000
+Z32 !s108 1608772825.000000
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask.v|
 !i113 1
 R7
 R8
 vmemorytask_test
-R25
+R31
 !i10b 1
 !s100 ZL]oRbPACJ`M<mLfen@nf0
 R2
 I]f`Vf[`H:dVaHU`EfeLM13
 R3
-R12
+R11
 w1608772812
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v
@@ -371,14 +394,14 @@ R5
 r1
 !s85 0
 31
-R26
+R32
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/task/memorytask_test.v|
 !i113 1
 R7
 R8
 vmultiplexor
-Z27 !s110 1602708405
+Z33 !s110 1602708405
 !i10b 1
 !s100 B1K=lKR7SBfWS<<cSDG>i3
 R2
@@ -394,13 +417,13 @@ R5
 r1
 !s85 0
 31
-Z28 !s108 1602708405.000000
-Z29 !s107 lab4-mux/multiplexor.v|lab4-mux/multiplexor_test.v|
-Z30 !s90 -reportprogress|300|lab4-mux/multiplexor_test.v|lab4-mux/multiplexor.v|
+Z34 !s108 1602708405.000000
+Z35 !s107 lab4-mux/multiplexor.v|lab4-mux/multiplexor_test.v|
+Z36 !s90 -reportprogress|300|lab4-mux/multiplexor_test.v|lab4-mux/multiplexor.v|
 !i113 1
 R8
 vmultiplexor_test
-R27
+R33
 !i10b 1
 !s100 PY>]nZTVnV51e<hcae9Mh2
 R2
@@ -411,25 +434,25 @@ w1459766493
 8lab4-mux/multiplexor_test.v
 Flab4-mux/multiplexor_test.v
 !i122 1
-R22
+R28
 R5
 r1
 !s85 0
 31
-R28
-R29
-R30
+R34
+R35
+R36
 !i113 1
 R8
 vmux
-Z31 !s110 1608911242
+Z37 !s110 1608911242
 !i10b 1
 !s100 a>LkGnKNmI=E<6R6ToCQ10
 R2
 IP0ga>Ta5@[>nZd:T?SXV82
 R3
-R12
-Z32 w1459766488
+R11
+Z38 w1459766488
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux.v
 !i122 99
@@ -438,21 +461,21 @@ R5
 r1
 !s85 0
 31
-Z33 !s108 1608911242.000000
+Z39 !s108 1608911242.000000
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux.v|
 !i113 1
 R7
 R8
 vmux_test
-R31
+R37
 !i10b 1
 !s100 _egT4ZEOaHTkB^Sz=80J?3
 R2
 I_W5Q4j6R1LQJo7nnWc5J<2
 R3
-R12
-R32
+R11
+R38
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux_test.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux_test.v
 !i122 100
@@ -461,7 +484,7 @@ R5
 r1
 !s85 0
 31
-R33
+R39
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux_test.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/muxsynth/mux_test.v|
 !i113 1
@@ -474,7 +497,7 @@ vrcvr
 R2
 Imfgh<QQ4[G3IQT=^62@YV2
 R3
-R12
+R11
 w1609027729
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr.v
@@ -497,7 +520,7 @@ vrcvr_test
 R2
 Ifn525leDR6dz@3JHDOb0Q0
 R3
-R12
+R11
 w1459766490
 8/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr_test.v
 F/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr_test.v
@@ -510,6 +533,52 @@ r1
 !s108 1609026688.000000
 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr_test.v|
 !s90 -reportprogress|300|-work|work|/home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/rcvr/rcvr_test.v|
+!i113 1
+R7
+R8
+vrequester
+R10
+!i10b 1
+!s100 O]XDeD?kC4;Olo4aK9CK[1
+R2
+IQKUYnPN@^SQ^Uf^mS6GaY1
+R3
+R11
+R12
+R13
+R14
+!i122 157
+L0 32 51
+R5
+r1
+!s85 0
+31
+R15
+Z40 !s107 /home/quangphan2903/TUNI/Cadence/verilog/VLA/VLA_modelsim/lock/test.v|
+R16
+!i113 1
+R7
+R8
+vtest
+R10
+!i10b 1
+!s100 e9AMCi5a;OGoNn76_`_?`2
+R2
+IYRlXWfOD`cdna:0I70OgM0
+R3
+R11
+R12
+R13
+R14
+!i122 157
+L0 89 22
+R5
+r1
+!s85 0
+31
+R15
+R40
+R16
 !i113 1
 R7
 R8
