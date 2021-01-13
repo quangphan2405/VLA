@@ -3,15 +3,15 @@ module memory #(parameter integer AWIDTH = 5, DWIDTH = 8)
     input 	       clk, wr, rd,
     inout [DWIDTH-1:0] data);
    
-   reg [DWIDTH-1:0]    mem[0:2**AWIDTH-1];  
+   reg [DWIDTH-1:0]    array[0:2**AWIDTH-1];  
    
    always @(posedge clk)
      begin	
 	if (wr == 1)
-	  mem[addr] <= data;			       
+	  array[addr] <= data;			       
      end   
    
-   assign data = (rd == 1) ? mem[addr] : {DWIDTH{1'bz}};
+   assign data = (rd == 1) ? array[addr] : {DWIDTH{1'bz}};
    
 endmodule // memory
 

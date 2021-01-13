@@ -7,6 +7,6 @@ module driver #(parameter integer WIDTH=8)
 		if (data_en == 1)
 			data_out = data_in;
 		else
-			data_out = WIDTH'('bz);
+			data_out = {WIDTH{1'bz}};
 
 endmodule
