@@ -12,18 +12,19 @@ module cpu_test;
    // Display header
    task display_header;
       begin
-	 $display("Input a value for testcase:");
+	 $display("To run n'th testcase use commands:");
+	 $display("\tdeposit cpu_test.run.number n; task cpu_test.run; run \n");
       end
    endtask // deposit
 
    // Run the simulation with test file
-   task run
-     ( input [7:0] value,
-       reg [9*8:1] testfile
-       );
+   task run;
+      input [7:0] number;      
+      reg [9*8:1] testfile;
+      
       begin
-	 testfile = { "PROG", 8'h30+value, ".txt" };
-	 $readmemb (testfile, top.cpu_inst.mem );
+	 testfile = { "PROG", 8'h30+number, ".txt" };
+	 $readmemb (testfile, cpu_test.cpu_inst.mem );
 	 @(negedge CLK) RST = 1;
 	 @(negedge CLK) RST = 0;
       end
@@ -33,7 +34,7 @@ module cpu_test;
    task display_result;
       reg [4:0] expected_pc;
       begin
-	 case ( run.value )
+	 case ( run.number )
 	   1: expected_pc <= 5'h17;
 	   2: expected_pc <= 5'h10;
 	   3: expected_pc <= 5'h0C;
