@@ -1,0 +1,9 @@
+../mux/multiplexor.v
+../drvr/driver.v
+../alu/alu.v
+../ctrl/controller.v
+../mem/memory.v
+../reg/register.v
+../cntr/counter.v
+./risc.v
+./risc_test.v
